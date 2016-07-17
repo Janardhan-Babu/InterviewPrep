@@ -10,7 +10,7 @@ public class Binary {
 		int i=1;
 		while ( i<= n/2){
 			i = i*2;
-		}
+		} 
 		
 		while (i>0){
 			if(n<i){
