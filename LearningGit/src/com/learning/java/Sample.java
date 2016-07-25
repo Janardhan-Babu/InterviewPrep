@@ -7,7 +7,7 @@ public class Sample {
 		Scanner sc = new Scanner(System.in);
 		int m = sc.nextInt();
 		int n = sc.nextInt();
-		
+		sc.close();
 		int [] perm = new int[n];
 		for(int i =0;i<n;i++){
 			perm[i]=i;

@@ -19,7 +19,7 @@ public class GetInputFromUser {
 		System.out.println();
 		b = sc.nextFloat();
 		System.out.println("Entered Float is"+b);
-		
+		sc.close();
 		
 	}
 
